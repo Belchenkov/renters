@@ -124,3 +124,8 @@ body {
     display: inline-block;
     color: var(--mainWhite);
 }
+
+/* featured */
+.featured {
+    background: var(--mainWhite);
+}
