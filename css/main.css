@@ -148,7 +148,8 @@ body {
 }
 
 /* services section */
-.services {
+.services,
+.tour {
     background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url('../img/bannerBcg.jpeg') no-repeat center/cover fixed;
 }
 
@@ -247,4 +248,19 @@ body {
     cursor: pointer;
 }
 
+/* tour */
+.tour-icon {
+    color: var(--mainGreen);
+    margin-bottom: 1rem;
+    padding: .75rem;
+    background: var(--mainWhite);
+    border-radius: 30%;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: all 1s linear;
+}
 
+.tour-icon:hover {
+    background: var(--mainGreen);
+    color: var(--mainWhite);
+}
