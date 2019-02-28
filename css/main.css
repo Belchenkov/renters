@@ -148,7 +148,8 @@ body {
 }
 
 /* services section */
-.services {
+.services,
+.tour {
     background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url('../img/bannerBcg.jpeg') no-repeat center/cover fixed;
 }
 
@@ -184,5 +185,82 @@ body {
 }
 
 .service-link:hover {
+    color: var(--mainWhite);
+}
+
+/* gallery section */
+.gallery-btn:hover {
+    background: var(--mainGreen);
+    color: var(--mainWhite);
+}
+
+.gallery-img-container {
+    position: relative;
+    transition: all 1s linear;
+    overflow: hidden;
+}
+
+.gallery-img-container:hover {
+    background: rgba(0, 0, 0, .9);
+}
+
+.gallery-img {
+    transition: all 1s linear;
+}
+
+.gallery-img-container:hover .gallery-img {
+    opacity: .3;
+}
+
+.gallery-img-container:hover .gallery-info {
+    transform: translate(-50%, 0);
+}
+
+.gallery-img-container:hover .gallery-icon {
+    opacity: 1;
+}
+
+.gallery-info {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 100%);
+    background: var(--mainGreen);
+    color: var(--mainWhite);
+    text-decoration: none;
+    transition: all .3s linear;
+}
+
+.gallery-info:hover {
+    text-decoration: none;
+    color: var(--mainDark);
+}
+
+.gallery-icon {
+    position: absolute;
+    color: var(--mainWhite);
+    top: 50%;
+    left: 50%;
+    font-size: 2rem;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    transition: all .3s linear;
+    cursor: pointer;
+}
+
+/* tour */
+.tour-icon {
+    color: var(--mainGreen);
+    margin-bottom: 1rem;
+    padding: .75rem;
+    background: var(--mainWhite);
+    border-radius: 30%;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: all 1s linear;
+}
+
+.tour-icon:hover {
+    background: var(--mainGreen);
     color: var(--mainWhite);
 }
