@@ -264,3 +264,7 @@ body {
     background: var(--mainGreen);
     color: var(--mainWhite);
 }
+
+.footer {
+    background: #000;
+}
