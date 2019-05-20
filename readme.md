@@ -2,4 +2,4 @@
 
 ### Renters Web-site on Bootstrap 4
 
-Demo: http://185.228.232.41/projects/renters/
+Demo: http://193.187.174.213/projects/renters/
